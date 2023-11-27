@@ -4,7 +4,7 @@ In this project, we will use a real-time bikes stations info API, Apache Kafka, 
 corresponding configurations that will allow us to create this data pipeline. The end result will be a Kibana dashboard fetching real-time data from ElasticSearch.
 
 
-## Pipeline
+## Pipeline architecture
 The project pipeline is as follows:
 
 ![Pipeline architecture] (https://github.com/yasminemasmoudi/Real-Time-Bikes-Availability-Data-Pipeline/blob/master/archi.png)
