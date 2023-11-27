@@ -7,7 +7,7 @@ corresponding configurations that will allow us to create this data pipeline. Th
 ## Pipeline
 The project pipeline is as follows:
 
-![2] (https://github.com/yasminemasmoudi/Real-Time-Bikes-Availability-Data-Pipeline/blob/master/archi.png)
+![Pipeline architecture] (https://github.com/yasminemasmoudi/Real-Time-Bikes-Availability-Data-Pipeline/blob/master/archi.png)
 
 ## Prerequisites
 The following software should be installed on your machine in order to reproduice our work:
