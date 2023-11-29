@@ -1,0 +1,4 @@
+pyspark
+elasticsearch==8.8.2
+kafka-python
+numpy

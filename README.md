@@ -21,11 +21,11 @@ The following software should be installed on your machine in order to reproduic
 ## How to run
 1. Start Elasticsearch
 
-`sudo systemctl start elasticsearch ` 
+`sudo systemctl start elasticsearch` 
 
 2. Start Kibana
 
-`sudo systemctl start kibana ` 
+`sudo systemctl start kibana` 
 
 3. Start Zookeeper server by moving into the bin folder of Zookeeper installed directory by using:
 
@@ -41,14 +41,9 @@ The following software should be installed on your machine in order to reproduic
 
 6. Run PySpark consumer with spark-submit:
 
-`spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.13:2.7.0,,org.elasticsearch:elasticsearch-spark-30_2.12:7.14.2 consumer-spark.py`
+`spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.13:3.3.3,org.elasticsearch:elasticsearch-spark-30_2.12:7.14.2 consumer-spark.py`
 
-## How to launch kibana dashboard
 
-- Open http://localhost:5601/ in your browser.
-- Go to Management>Kibana>Saved Objects
-- Import .ndjson file
-- Open dashboard
 
 
 
